@@ -14,3 +14,5 @@ class Plant(db.Model, SerializerMixin):
 
     def __repr__(self):
         return f'<Plant {self.name} | In Stock: {self.is_in_stock}>'
+
+# float = decimal
